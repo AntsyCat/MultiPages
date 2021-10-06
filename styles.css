@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+}
+
+html{
+	height: 150%;
+	background-color:aliceblue;
+}
+
+.wrapper{
+	box-sizing: border-box;
+	padding-top: 85px;
+}
+
+nav{
+	height: 80px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color:cornflowerblue;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+	margin-bottom: 20px;
+	color: #040719;
+}
+
+a{
+	color: #040719;
+	text-decoration: none;
+	margin-right: 15px;
+	font-size: 40px;
+}
+
+.home{
+	margin-top: 100px;
+}
+
+.about{
+	margin-bottom: 20px;
+}
+
+img{
+	height:250px;
+	width: 250px;
+}
